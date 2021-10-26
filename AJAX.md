@@ -43,10 +43,13 @@ $.ajax ({
 </code>
 </pre>
 
-
+<pre>
 <code>
 "true".equals((String) request.getHeader("ajax")) // ajax 호출인지 확인 하는 방법
 </code>
+</pre>
+
+
  #### 참고 ####
 * <https://devlogofchris.tistory.com/14>
 * <https://velog.io/@surim014/AJAX%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80>
