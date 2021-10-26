@@ -1,7 +1,8 @@
 # AJAX
 
 ![캡처](https://user-images.githubusercontent.com/45511964/138813567-e609efc9-fda2-4141-970c-1cc3479fd731.PNG)
-
+<pre>
+<code>
 $.ajax ({
   // URL은 필수 요소이므로 반드시 구현해야 하는 Property
   url : "url", // 요청이 전송될 URL 주소
@@ -31,3 +32,5 @@ $.ajax ({
     // try - catch - finally의 finally 구문과 동일
   }
 });
+</code>
+</pre>
