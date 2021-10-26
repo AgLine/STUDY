@@ -3,6 +3,9 @@
 ![캡처](https://user-images.githubusercontent.com/45511964/138813567-e609efc9-fda2-4141-970c-1cc3479fd731.PNG)
 <pre>
 <code>
+
+var parameters = $("#frm").serialize(); // form 태그 안에 있는것들을 key1=value1&key2=value2&key3=value3.... 의 형태로 만들어줌
+
 $.ajax ({
   // URL은 필수 요소이므로 반드시 구현해야 하는 Property
   url : "url", // 요청이 전송될 URL 주소
@@ -10,7 +13,7 @@ $.ajax ({
   async : true, false // 요청 시 동기화 여부. 기본은 비동기(asynchronous) 요청 (default: true)
   cache : true, fasle  // 캐시 여부
   timeout : 3000, // 요청 제한 시간 안에 완료되지 않으면 요청을 취소하거나 error 콜백을 호출.(단위: ms)
-  data : {key : value}, // 요청 시 포함되어질 데이터
+  data : {key : value}, parameters// 요청 시 포함되어질 데이터
   processData : true, // 데이터를 컨텐트 타입에 맞게 변환 여부
   contentType : "application/json", // 요청 컨텐트 타입 
   dataType    : "json", // 응답 데이터 형식 (명시하지 않을 경우 자동으로 추측)
@@ -32,5 +35,9 @@ $.ajax ({
     // try - catch - finally의 finally 구문과 동일
   }
 });
+
+<form name="frm" id="frm" onsubmit="return false;" method="get">
+
+</form>
 </code>
 </pre>
