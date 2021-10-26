@@ -41,3 +41,7 @@ $.ajax ({
 </form>
 </code>
 </pre>
+
+<https://devlogofchris.tistory.com/14>
+<https://velog.io/@surim014/AJAX%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80>
+![image](https://user-images.githubusercontent.com/45511964/138817892-57191d3c-344e-4571-bec9-46c7c7a90b16.png)
