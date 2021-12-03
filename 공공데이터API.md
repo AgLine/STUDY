@@ -123,6 +123,8 @@ public String getLine(String callUrl) throws Exception {
 </response>
 ```
 ```java
+static String DATA_KEY = "인증키";
+
 @SuppressWarnings("unchecked")
 @ResponseBody
 @PostMapping("/api/name")
