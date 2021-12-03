@@ -35,8 +35,7 @@
 </code>
 
 
-<pre>
-<code>
+```java
 static String DATA_KEY = "인증키";
 
 @ResponseBody
@@ -88,9 +87,7 @@ public String getLine(String callUrl) throws Exception {
 	line = br.readLine(); // API 호출 응답값
 	return line;
 }
-
-</code>
-</pre>
+```
 
  # XML
 
@@ -125,8 +122,7 @@ public String getLine(String callUrl) throws Exception {
     </body>
 </response>
 ```
-<pre>
-<code>
+```java
 @SuppressWarnings("unchecked")
 @ResponseBody
 @PostMapping("/api/name")
@@ -179,6 +175,4 @@ public Map<String, Object> name() throws Exception{
 	
 	return resultMap;
 }
-
-</code>
-</pre>
+```
