@@ -129,8 +129,8 @@ public String getLine(String callUrl) throws Exception {
 <code>
 @SuppressWarnings("unchecked")
 @ResponseBody
-@PostMapping("/api/getMedicalH")
-public Map<String, Object> getMedicalH(String lat, String lon) throws Exception{
+@PostMapping("/api/name")
+public Map<String, Object> name() throws Exception{
 	Map<String, Object> resultMap = new HashMap<>();
 
 	StringBuilder urlBuilder = new StringBuilder("URL");
